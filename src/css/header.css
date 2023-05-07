@@ -9,7 +9,9 @@ body {
 .navbar {
   background: var(--navbar-background);
   color: var(--navbar-font-color);
-  font-size: calc(16 / var(--rem-base) * 1rem);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: calc(16 / var(--rem-base) * 1.3rem);
   height: var(--navbar-height);
   position: fixed;
   top: 0;
