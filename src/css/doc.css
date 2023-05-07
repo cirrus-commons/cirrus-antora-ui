@@ -219,6 +219,8 @@
 
 .doc table.tableblock {
   font-size: calc(15 / var(--rem-base) * 1rem);
+  margin: 25px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 .doc .tablecontainer,
@@ -243,7 +245,7 @@
 
 .doc table.tableblock,
 .doc table.tableblock > * > tr > * {
-  border: 0 solid var(--table-border-color);
+  border: 3px solid var(--table-border-color);
 }
 
 .doc table.grid-all > * > tr > * {

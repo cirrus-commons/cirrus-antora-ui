@@ -332,6 +332,20 @@ The fog comes
 on little cat feet.
 ____
 
+== Tables
+
+Example of table:
+
+[cols="5", options="header"]
+|===
+|id_empleado |nombre |apellido |salario |fecha_contratacion
+|1 |Juan |Pérez |5000.00 |2020-01-01
+|2 |María |González |6000.00 |2019-06-15
+|3 |Pedro |López |5500.00 |2021-03-01
+|4 |Carmen |Rodríguez|4500.00 |2018-10-30
+|===
+
+
 == Fin
 
 That's all, folks!
