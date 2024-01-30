@@ -23,6 +23,7 @@ npx gulp preview
 Para desplegar la plantilla ejecutar lo siguiente:
 
 ```bash
+rm -rf build
 npx gulp bundle
 aws s3 cp ./build/ui-bundle.zip s3://cirrus-image-cdn/ --profile cirrus_prod
 ```
